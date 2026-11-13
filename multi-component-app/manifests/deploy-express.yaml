@@ -20,6 +20,8 @@ spec:
           value: "admin"
         - name: ME_CONFIG_MONGODB_ADMINPASSWORD
           value: "secret"
+        - name: ME_CONFIG_MONGODB_URL
+          value: "mongodb://admin:secret@mongo-0.mongo-svc:27017/"
         - name: ME_CONFIG_MONGODB_SERVER
           value: "mongo-0.mongo-svc"
 ---
